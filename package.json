@@ -3,8 +3,7 @@
   "version": "1.6.9",
   "description": "A simple node app for controlling a Sonos system with basic HTTP requests",
   "scripts": {
-    "start": "node server.js",
-    "lint": "eslint lib"
+    "start": "node server.js"
   },
   "author": "Jimmy Shimizu <jimmy@shimizu.se>",
   "repository": {
@@ -32,8 +31,6 @@
   "main": "lib/sonos-http-api.js",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^4.8.0",
-    "eslint-config-airbnb-base": "^12.0.1",
-    "eslint-plugin-import": "^2.7.0"
+  
   }
 }
